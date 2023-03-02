@@ -1,4 +1,20 @@
+import { IBM_Plex_Sans } from 'next/font/google'
+
+const ibm_plex_sans = IBM_Plex_Sans({
+  weight: [
+    '100',
+    '200',
+    '300',
+    '400',
+    '500',
+    '600',
+    '700',
+  ],
+  subsets: ['latin']
+})
+
 import './globals.css'
+import Attention from './partials/attention'
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +27,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body className={ibm_plex_sans.className}>
+
+        <Attention />
+
+        {children}
+
+      </body>
     </html>
   )
 }
