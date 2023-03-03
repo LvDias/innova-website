@@ -12,6 +12,7 @@ export default function ButtonOne(props : any){
       px-7 py-3
       rounded
     ' href={props.url}>
+      <Image src='/assets/images/whatsapp.svg' width={25} height={25} alt='Logo Whatsapp' />
       {props.text}
     </a>
 

@@ -1,4 +1,4 @@
-export default function Squads(){
+export default function Content(){
 
   return(
 

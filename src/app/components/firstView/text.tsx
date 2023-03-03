@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ButtonTwo from '../../components/button/buttonTwo'
+import ButtonTwo from '../button/buttonTwo'
 
 export default function Text(){
 

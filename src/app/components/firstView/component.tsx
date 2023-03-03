@@ -1,6 +1,6 @@
-import Squads from './firstView/squads'
-import Text from './firstView/text'
-import Header from './header'
+import Content from './content'
+import Text from './text'
+import Header from '../../partials/header'
 
 export default function FirstView(){
 
@@ -29,7 +29,7 @@ export default function FirstView(){
 
           <Text />
 
-          <Squads />
+          <Content />
 
         </div>
 
