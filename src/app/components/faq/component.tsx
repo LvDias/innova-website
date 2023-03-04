@@ -14,8 +14,8 @@ export default function Faq(){
       <div className='
         flex flex-col
         items-center
-        gap-14
-        px-5 py-14
+        gap-7 md:gap-14
+        px-5 py-7 md:py-14
         w-full max-w-screen-2xl
       '>
 
@@ -47,58 +47,23 @@ export default function Faq(){
               w-full max-w-screen-lg
             '>
 
-              {/* <Dropdown 
+              <Dropdown 
                 title='Aqui vai a pergunta mais comum feita pelo potencial cliente'
                 text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                value='faq1'
-              /> */}
+                id='faq1'
+              />
 
-              <input className={`
-                hidden
-                peer/faq1
-              `} type="checkbox" id='faq1' />
-              <label htmlFor='faq1' className={`
-                relative
-                flex flex-col
-                peer-checked/faq1:[&>div]:h-auto peer-checked/faq1:[&>div]:py-5
-                peer-checked/faq1:[&>h5>div]:rotate-180
-              `}>
+              <Dropdown 
+                title='Aqui vai a pergunta mais comum feita pelo potencial cliente'
+                text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                id='faq2'
+              />
 
-                <h5 className='
-                  flex
-                  justify-between items-center
-                  text-[#8FA6B2]
-                  border-2 border-solid border-[#D0D0D0]
-                  bg-[#F8F8F8]
-                  p-5
-                  cursor-pointer
-                '>
-
-                  Aqui vai a pergunta mais comum feita pelo potencial cliente
-                  <div className='
-                    w-7 h-7
-                    bg-[#D0D0D0]
-                    rounded-full
-                    bg-[url("/assets/images/arrow-down.svg")] bg-center
-                    transition-all duration-150
-                    rotate-0
-                  ' />
-
-                </h5>
-
-                <div className='
-                  bg-white
-                  h-0
-                  overflow-hidden
-                  px-5
-                  transition-all duration-150
-                '>
-                  <h6>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </h6>
-                </div>
-
-              </label>
+              <Dropdown 
+                title='Aqui vai a pergunta mais comum feita pelo potencial cliente'
+                text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                id='faq3'
+              />
 
             </div>
 
@@ -125,7 +90,7 @@ export default function Faq(){
           </h5>
 
           <div className='
-            grid grid-cols-3
+            flex flex-col md:grid md:grid-cols-3
             gap-5
             w-full
           '>

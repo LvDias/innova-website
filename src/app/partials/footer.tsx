@@ -13,15 +13,15 @@ export default function Footer(){
 
       <div className='
         flex flex-col
-        items-center
-        px-5 py-14
+        md:items-center
+        gap-7 md:gap-14
+        px-5 py-7 md:py-14
         w-full
         max-w-screen-2xl
-        gap-14
       '>
 
         <div className='
-          flex
+          flex flex-col md:flex-row
           gap-5
         '>
 
@@ -125,23 +125,23 @@ export default function Footer(){
         </div>
 
         <div className='
-          flex
-          items-center
+          flex flex-col md:flex-row
+          items-start md:items-center
           gap-5
         '>
 
           <a href='/'>Central da Transparência</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Termos de uso</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Política de privacidade</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Ouvidoria dos parceiros</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Portal de conteúdo sobre finanças</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Instagram</a>
-          <h5 className='text-white'>|</h5>
+          <h5 className='text-white hidden md:blog'>|</h5>
           <a href='/'>Facebook</a>
           
         </div>

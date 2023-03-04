@@ -12,6 +12,14 @@
   @apply px-8 py-2.5 bg-[#23D948] rounded text-shadow;
 }
 
+@media screen and (max-width: 768px) {
+  
+  br{
+    display: none;
+  }
+
+}
+
 @layer base {
   h1 {
     @apply text-3xl tracking-widest font-medium text-white text-shadow-md text-center;

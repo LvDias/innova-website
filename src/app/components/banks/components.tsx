@@ -13,11 +13,13 @@ export default function Banks(){
         flex flex-col
         items-center
         gap-7
-        px-5 py-14
+        px-5 py-7 md:py-14
         w-full max-w-screen-2xl
       '>
 
-        <h2>Somos parceiros dos principais bancos</h2>
+        <h2 className='
+          text-center
+        '>Somos parceiros dos principais bancos</h2>
 
         <h5 className='
           text-center
@@ -40,7 +42,7 @@ export default function Banks(){
         </h5>
 
         <div className='
-          flex
+          flex flex-col md:flex-row
           gap-5
           items-center
         '>

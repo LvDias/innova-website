@@ -12,7 +12,7 @@ export default function AboutUs(){
 
       <div className='
         flex flex-col
-        px-5 py-14
+        px-5 py-7 md:py-14
         gap-7
         items-center
       '>
@@ -34,7 +34,7 @@ export default function AboutUs(){
         <h5 className='
           text-center
         '>
-          <b className='text-white'>Por que escolhemos os órgãos públicos?<br /></b>
+          <b className='text-white'>Por que escolhemos os órgãos públicos?<br className='flex' /></b>
           É simples: porque possuem, de longe, as melhores opções de crédito.
         </h5>
 

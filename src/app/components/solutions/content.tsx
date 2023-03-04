@@ -5,9 +5,9 @@ export default function Content(){
   return(
 
     <div className='
-      grid grid-cols-2
+      flex flex-col md:grid md:grid-cols-2
       justify-between items-center
-      gap-14
+      gap-7 md:gap-14
     '>
 
       <div className='

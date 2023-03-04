@@ -12,7 +12,7 @@ export default function CallToAction(){
 
       <div className='
         flex flex-col
-        px-5 py-14
+        px-5 py-7 md:py-14
         gap-7
         items-center
         w-full max-w-screen-2xl

@@ -12,6 +12,7 @@ export default function ButtonFour(props : any){
     ' href={props.url}>
       <h2 className='
         text-[#0C92F2]
+        text-base md:text-2xl
       '>
         {props.text}
       </h2>

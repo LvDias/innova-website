@@ -9,7 +9,7 @@ export default function ButtonOne(props : any){
       items-center justify-center
       gap-3
       bg-[#00D948]
-      px-7 py-3
+      px-5 md:px-7 py-3
       rounded
     ' href={props.url}>
       <Image src='/assets/images/whatsapp.svg' width={25} height={25} alt='Logo Whatsapp' />
