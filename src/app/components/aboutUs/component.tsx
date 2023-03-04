@@ -12,7 +12,7 @@ export default function AboutUs(){
 
       <div className='
         flex flex-col
-        px-5 py-7 md:py-14
+        px-5 py-7 xl:py-14
         gap-7
         items-center
       '>

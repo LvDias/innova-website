@@ -11,10 +11,10 @@ export default function Education(){
     '>
 
       <div className='
-        flex flex-col md:grid md:grid-cols-2
+        flex flex-col xl:grid xl:grid-cols-2
         justify-between
-        gap-7 md:gap-14
-        px-5 py-7 md:py-14
+        gap-7 xl:gap-14
+        px-5 py-7 xl:py-14
         w-full max-w-screen-2xl
       '>
 
@@ -26,7 +26,7 @@ export default function Education(){
         <div className='
           flex flex-col
           gap-5
-          items-start justify-between
+          items-center xl:items-start justify-between
         '>
 
           <h2 className='

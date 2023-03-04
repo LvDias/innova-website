@@ -3,7 +3,7 @@ export default function Content(){
   return(
 
     <div className='
-      grid grid-row-3 md:grid-cols-3
+      grid grid-row-3 xl:grid-cols-3
       gap-5
     '>
 
@@ -11,7 +11,7 @@ export default function Content(){
         flex flex-col
         justify-between
         gap-7
-        p-7 md:p-14
+        p-7 xl:p-14
         bg-white
       '>
 
@@ -39,7 +39,7 @@ export default function Content(){
         flex flex-col
         justify-between
         gap-7
-        p-7 md:p-14
+        p-7 xl:p-14
         bg-[#0C92F2]
       '>
 
@@ -69,7 +69,7 @@ export default function Content(){
         flex flex-col
         justify-between
         gap-7
-        p-7 md:p-14
+        p-7 xl:p-14
         bg-white
       '>
 

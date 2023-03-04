@@ -12,8 +12,8 @@ export default function Solutions(){
 
       <div className='
         flex flex-col
-        gap-7 md:gap-14
-        px-5 py-7 md:py-14
+        gap-7 xl:gap-14
+        px-5 py-7 xl:py-14
         max-w-screen-2xl
         w-full
       '>

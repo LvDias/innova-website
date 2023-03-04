@@ -58,7 +58,7 @@ export default function Nav(props : any){
     <>
 
       <nav className='
-        hidden md:flex
+        hidden xl:flex
         items-center
         gap-5
       '>
@@ -92,7 +92,7 @@ export default function Nav(props : any){
       <div className='
         grid grid-rows-3
         items-between
-        md:hidden
+        xl:hidden
         w-10 h-10
         gap-1.5
         p-2

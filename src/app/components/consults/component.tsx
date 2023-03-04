@@ -11,9 +11,9 @@ export default function Consults(){
     '>
 
       <div className='
-        flex flex-col md:grid md:grid-cols-2
-        gap-7 md:gap-14
-        px-5 py-7 md:py-14
+        flex flex-col xl:grid xl:grid-cols-2
+        gap-7 xl:gap-14
+        px-5 py-7 xl:py-14
         w-full max-w-screen-2xl
       '>
 
@@ -25,7 +25,7 @@ export default function Consults(){
         <div className='
           flex flex-col
           gap-5
-          justify-center
+          items-center xl:items-start justify-center
         '>
 
           <h3>Nossos consultores financeiros</h3>

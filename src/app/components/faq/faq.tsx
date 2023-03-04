@@ -55,7 +55,7 @@ export default function Dropdown(props : any){
           <div id={`arrow-${props.id}`} className='
             w-7 h-7
             bg-[#D0D0D0]
-            p-5 md:p-2.5
+            p-5 xl:p-2.5
             rounded-full
             bg-[url("/assets/images/arrow-down.svg")] bg-center
             transition-all duration-150

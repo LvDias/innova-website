@@ -14,8 +14,8 @@ export default function Faq(){
       <div className='
         flex flex-col
         items-center
-        gap-7 md:gap-14
-        px-5 py-7 md:py-14
+        gap-7 xl:gap-14
+        px-5 py-7 xl:py-14
         w-full max-w-screen-2xl
       '>
 
@@ -90,7 +90,7 @@ export default function Faq(){
           </h5>
 
           <div className='
-            flex flex-col md:grid md:grid-cols-3
+            flex flex-col xl:grid xl:grid-cols-3
             gap-5
             w-full
           '>
