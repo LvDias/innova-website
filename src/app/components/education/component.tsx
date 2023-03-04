@@ -29,30 +29,24 @@ export default function Education(){
           items-start justify-between
         '>
 
-          <h3 className='
+          <h2 className='
             text-white
-          '>Educação financeira</h3>
+          '>Educação financeira</h2>
 
-          <h5 className='
-            text-[#8FA6B2]
-          '>
+          <h5>
             Aprenda a controlar o seu dinheiro por meio de nosso <br /> 
             programa de mentoria online, exclusivo para clientes <br /> 
             Innova.
           </h5>
 
-          <h5 className='
-            text-[#8FA6B2]
-          '>
+          <h5>
             Com a Innova você encontra o melhor crédito para <br /> 
             reorganizar sua vida financeira, e principalmente, para<br /> 
             alcançar objetivos financeiros de curto, médio e longo<br /> 
             prazo. 
           </h5>
 
-          <h5 className='
-            text-[#8FA6B2]
-          '>
+          <h5>
             Em nosso programa de mentoria online, você<br /> 
             desenvolve a mentalidade correta para lidar com o<br /> 
             dinheiro, livrando-se das dívidas e criando<br /> 
@@ -60,16 +54,12 @@ export default function Education(){
             simples e objetiva.
           </h5>
 
-          <h5 className='
-            text-[#8FA6B2]
-          '>
+          <h5>
             {`>`} Transmitido pelo Google Meet! <br /> 
             {`>`} Benefício exclusivo para clientes Innova!
           </h5>
 
-          <h5 className='
-            text-[#8FA6B2]
-          '>
+          <h5>
             Sem nenhum custo adicional, você participa de nosso<br /> 
             programa de mentoria uma vez por semana do seu<br /> 
             computador ou smartphone e adquire o conhecimento<br /> 

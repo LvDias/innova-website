@@ -14,28 +14,28 @@
 
 @layer base {
   h1 {
-    @apply text-3xl tracking-widest font-medium;
+    @apply text-3xl tracking-widest font-medium text-white text-shadow-md text-center;
   }
   h2 {
-    @apply text-2xl tracking-widest font-medium;
+    @apply text-2xl tracking-widest font-medium text-[#23323B];
   }
   h3 {
-    @apply text-xl tracking-widest font-medium;
+    @apply text-xl tracking-widest font-medium text-[#505F67];
   }
   h4 {
-    @apply text-lg tracking-widest font-medium;
+    @apply text-lg tracking-widest font-medium text-[#8FA6B2];
   }
   h5 {
-    @apply text-base tracking-widest font-medium;
+    @apply text-base tracking-widest font-medium text-[#8FA6B2];
   }
   h6 {
     @apply text-sm tracking-widest font-medium;
   }
   p {
-    @apply text-xs tracking-widest font-normal;
+    @apply text-xs tracking-widest font-normal text-[#23323B];
   }
   a {
-    @apply text-xs tracking-widest text-white no-underline font-normal leading-7;
+    @apply text-xs tracking-widest text-white no-underline font-normal text-shadow;
   }
 }
 

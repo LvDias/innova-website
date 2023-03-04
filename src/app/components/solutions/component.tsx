@@ -15,6 +15,7 @@ export default function Solutions(){
         gap-14
         px-5 py-14
         max-w-screen-2xl
+        w-full
       '>
 
         <Text />

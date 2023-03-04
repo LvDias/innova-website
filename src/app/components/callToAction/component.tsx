@@ -15,11 +15,12 @@ export default function CallToAction(){
         px-5 py-14
         gap-7
         items-center
+        w-full max-w-screen-2xl
       '>
 
         <div className='
           flex flex-col
-          gap-3.5
+          gap-7
         '>
 
           <h3 className='

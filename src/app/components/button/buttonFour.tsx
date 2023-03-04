@@ -8,6 +8,7 @@ export default function ButtonFour(props : any){
       bg-[#F8F8F8]
       rounded
       px-7 py-3
+      text-shadow-none
     ' href={props.url}>
       <h2 className='
         text-[#0C92F2]

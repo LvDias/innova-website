@@ -12,12 +12,11 @@ export default function Text(){
     '>
 
       <h1 className='
-        text-shadow text-center text-white
+        text-center
       '>Empréstimo consignado com as menores taxas do mercado</h1>
 
       <h4 className='
         text-center
-        text-[#8FA6B2]
       '>Somos a ponte que liga você aos seus objetivos financeiros por meio do crédito consignado.</h4>
 
       <ButtonTwo 

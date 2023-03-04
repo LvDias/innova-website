@@ -21,14 +21,12 @@ export default function Banks(){
 
         <h5 className='
           text-center
-          text-[#8FA6B2]
         '>
           Nossos consultores estão sempre prontos para te entregar o que há de melhor!
         </h5>
 
         <h5 className='
           text-center
-          text-[#8FA6B2]
         '>
           Nós contamos as melhores taxas dos bancos: Itaú, Bradesco, BMG, Pan, C6 Bank, Safra, <br />
           Daycoval, Banco do Brasil, Caixa Econômica Federal ou outro de sua preferência.
@@ -36,7 +34,6 @@ export default function Banks(){
 
         <h5 className='
           text-center
-          text-[#8FA6B2]
         '>
           Com mais de <b>23.000 transações realizadas (todas bem sucedidas)</b>, já atendemos mais<br />
           de <b>25.000 clientes</b>, levando melhores créditos e soluções financeiras definitivas.

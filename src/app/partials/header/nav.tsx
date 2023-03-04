@@ -38,7 +38,7 @@ export default function Nav(props : any){
     <nav className='
       flex
       items-center
-      gap-6
+      gap-5
     '>
 
       <Link onClick={

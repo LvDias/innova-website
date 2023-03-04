@@ -13,7 +13,6 @@ export default function Text(){
 
       <h5 className='
         text-center
-        text-[#8FA6B2]
       '>
         Muito mais do que fornecer o empréstimo consignado. Nós vamos ajudar você a <br />
         organizar suas finanças e realizar seus objetivos financeiros.

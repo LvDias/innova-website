@@ -23,7 +23,7 @@ export default function Header(){
 
         <div className='
           flex
-          gap-6
+          gap-5
           items-center
         '>
 

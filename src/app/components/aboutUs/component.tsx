@@ -25,7 +25,6 @@ export default function AboutUs(){
 
         <h5 className='
           text-center
-          text-[#8FA6B2]
         '>
           Somos uma empresa de Soluções Financeiras, homologada pelo Banco Central do Brasil,<br />
           como Correspondente Bancário, e autorizados, por outros órgãos públicos (INSS, Governos<br />
@@ -34,7 +33,6 @@ export default function AboutUs(){
 
         <h5 className='
           text-center
-          text-[#8FA6B2]
         '>
           <b className='text-white'>Por que escolhemos os órgãos públicos?<br /></b>
           É simples: porque possuem, de longe, as melhores opções de crédito.
