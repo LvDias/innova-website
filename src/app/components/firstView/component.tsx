@@ -10,9 +10,8 @@ export default function FirstView(){
       flex flex-col
       w-full
       bg-cover bg-center bg-[url("/assets/images/first-view.svg")]
+      pt-[164px]
     '>
-
-      <Header />
 
       <div className='
         flex

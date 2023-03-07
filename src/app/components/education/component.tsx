@@ -1,4 +1,4 @@
-import ButtonTwo from '../button/buttonTwo';
+import ButtonTwo from '../templates/button/buttonTwo';
 
 export default function Education(){
 

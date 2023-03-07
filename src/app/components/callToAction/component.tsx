@@ -1,4 +1,4 @@
-import ButtonFour from '../button/buttonFour';
+import ButtonFour from '../templates/button/buttonFour';
 
 export default function CallToAction(){
 

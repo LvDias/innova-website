@@ -4,7 +4,7 @@ export default function AboutUs(){
 
   return(
 
-    <section className='
+    <section id='about-us' className='
       flex
       justify-center
       bg-[#002540]

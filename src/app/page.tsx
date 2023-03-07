@@ -6,7 +6,6 @@ import Education from './components/education/component'
 import Faq from './components/faq/component'
 import FirstView from './components/firstView/component'
 import Solutions from './components/solutions/component'
-import Footer from './partials/footer'
 
 export default function Home() {
 
@@ -22,7 +21,6 @@ export default function Home() {
       <Consults />
       <CallToAction />
       <Faq />
-      <Footer />
 
     </main>
 

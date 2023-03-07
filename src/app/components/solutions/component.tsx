@@ -5,7 +5,7 @@ export default function Solutions(){
 
   return(
 
-    <section className='
+    <section id='solutions' className='
       flex
       justify-center
     '>

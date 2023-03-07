@@ -39,15 +39,19 @@ export default function Nav(props : any){
 
     if(element){
 
-      menu?.classList.remove('hidden')
-      menu?.classList.add('flex')
+      menu?.classList.remove('invisible')
+      menu?.classList.remove('opacity-0')
+      menu?.classList.add('visible')
+      menu?.classList.add('opacity-100')
 
       return
 
     }
 
-    menu?.classList.remove('flex')
-    menu?.classList.add('hidden')
+    menu?.classList.remove('visible')
+    menu?.classList.remove('opacity-100')
+    menu?.classList.add('opacity-0')
+    menu?.classList.add('invisible')
 
     return
 
@@ -69,23 +73,23 @@ export default function Nav(props : any){
           active-link
         '>Home</Link>
 
-        <Link href='/'>Soluções</Link>
+        <a href='/#solutions'>Soluções</a>
 
-        <Link href='/'>Sobre nós</Link>
-
-        <Link onClick={
-          addClassLinkNav
-        } id='consultants' href='/'>Nossos consultores</Link>
-
-        <Link href='/'>Trabalhe Conosco</Link>
-
-        <Link href='/'>Simulação de Empréstimo</Link>
-
-        <Link href='/'>FAQ</Link>
+        <a href='/#about-us'>Sobre nós</a>
 
         <Link onClick={
           addClassLinkNav
-        } id='contact' href='/'>Contate-nos</Link>
+        } id='consultants' href='/consultores'>Nossos consultores</Link>
+
+        <Link href='/contato'>Trabalhe Conosco</Link>
+
+        <Link href='/contato'>Simulação de Empréstimo</Link>
+
+        <a href='/#faq'>FAQ</a>
+
+        <Link onClick={
+          addClassLinkNav
+        } id='contact' href='/contato'>Contate-nos</Link>
 
       </nav>
 
@@ -114,20 +118,23 @@ export default function Nav(props : any){
       </div>
 
       <div className='
+        flex
         fixed
         left-0 top-0
         z-20
         w-screen h-screen
         bg-black/90
         items-center justify-center
-        hidden
+        invisible
+        opacity-0
+        transition-all duration-500
       ' id='menu-nav'>
 
         <div onClick={
           () => handleMenu(false)
         } className='
           absolute
-          top-5
+          top-[26px]
           right-5
           w-7 h-7
           cursor-pointer

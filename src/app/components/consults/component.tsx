@@ -1,4 +1,4 @@
-import ButtonThree from '../button/buttonThree';
+import ButtonThree from '../templates/button/buttonThree';
 
 export default function Consults(){
 

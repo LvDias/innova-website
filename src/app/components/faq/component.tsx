@@ -1,4 +1,4 @@
-import ButtonTwo from '../button/buttonTwo'
+import ButtonTwo from '../templates/button/buttonTwo'
 import Content from './content'
 import Dropdown from './faq'
 
@@ -6,7 +6,7 @@ export default function Faq(){
 
   return(
 
-    <section className='
+    <section id='faq' className='
       flex
       justify-center
     '>

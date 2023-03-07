@@ -66,30 +66,3 @@
     }
   }
 }
-
-/* @layer base {
-  h1 {
-    @apply text-5xl tracking-widest font-medium;
-  }
-  h2 {
-    @apply text-4xl tracking-widest font-medium;
-  }
-  h3 {
-    @apply text-3xl tracking-widest font-medium;
-  }
-  h4 {
-    @apply text-2xl tracking-widest font-medium;
-  }
-  h5 {
-    @apply text-xl tracking-widest font-medium;
-  }
-  h6 {
-    @apply text-lg tracking-widest font-medium;
-  }
-  p {
-    @apply text-base tracking-widest font-normal leading-7;
-  }
-  a {
-    @apply text-base tracking-widest text-white no-underline font-normal leading-7;
-  }
-} */

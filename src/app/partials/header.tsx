@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ButtonOne from '../components/button/buttonOne'
+import ButtonOne from '../components/templates/button/buttonOne'
 import Nav from './header/nav'
 
 export default function Header(){
