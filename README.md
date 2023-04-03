@@ -1,3 +1,3 @@
 ### Innova
 
-Repositório que server para guardar o website da Innova
+Repositório que serve para guardar o website da Innova
