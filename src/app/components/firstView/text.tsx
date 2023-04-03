@@ -20,7 +20,7 @@ export default function Text(){
       '>Somos a ponte que liga você aos seus objetivos financeiros por meio do crédito consignado.</h4>
 
       <ButtonTwo 
-        url='https://api.whatsapp.com/send/?phone=5514998343492&text=Oi,+L%C3%A9o.+Quero+participar+da+masterclass+do+Prof.+Matrone!&type=phone_number&app_absent=0'
+        url={process.env.WHATSAPP} 
         text='Quero fazer uma simulação'
       />
 

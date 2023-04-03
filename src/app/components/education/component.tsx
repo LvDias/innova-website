@@ -67,7 +67,7 @@ export default function Education(){
           </h5>
 
           <ButtonTwo
-            url='https://api.whatsapp.com/send/?phone=5514998343492&text=Oi,+L%C3%A9o.+Quero+participar+da+masterclass+do+Prof.+Matrone!&type=phone_number&app_absent=0'
+            url={process.env.WHATSAPP} 
             text='Consultar pelo Whatsapp'
           />
 

@@ -40,7 +40,7 @@ export default function CallToAction(){
         </div>
 
         <ButtonFour 
-          url='/'
+          url={process.env.WHATSAPP} 
           text='Fazer uma simulação, agora!'
         />
 
